@@ -7588,7 +7588,7 @@ button.navbar-toggle.collapsed span {
   .filter {
     display: block;
     position: fixed;
-    top: 20%;
+    top: 28%;
     left: 18px;
     right: 0;
     z-index: 10000;

@@ -14,12 +14,10 @@
 	<script src="https://use.fontawesome.com/760b418b3a.js"></script>
 	<link rel="stylesheet" type="text/css" href="./party/slick.css">
   	<link rel="stylesheet" type="text/css" href="./party/slick-theme.css">
-  	<link rel="stylesheet" href="build/asRange.css">
-    <link rel="stylesheet" href="build/style.css">
 
 </head>
 <body>
-<!-- 	<nav id="fixed-left" class="menu-fixed">
+	<nav id="fixed-left" class="menu-fixed">
 		<ul class="nav-fixed nav ">
 			<li><a href="#sec1"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 			<li><a href="#sec2"><i class="fa fa-home" aria-hidden="true"></i></a></li>
@@ -28,75 +26,124 @@
 			<li><a href="#sec5"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 			<li><a href="#sec6"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 		</ul>
-	</nav> -->
-	<header>
-            <div class="hn-nav-one">
-                <nav class="nav">
-                    <div class="container">
-                        <div class="">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span> 
-                            </button>
-                            <a class="navbar-brand ct-brand" href="#">
-                                <img class="img-responsive" src="assets/imgs/logo.png" alt="logo">
-                            </a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                               <li><a href="#">Tải Apps</a></li>
-                               <li><a href="#">Sẵn sàng cùng chúng tôi</a></li>
-                               <li><a href="#">Lịch sử mua hàng của chúng tôi</a></li>
-                           </ul>
-                           <ul class="nav navbar-nav navbar-right">
-                               <li><a href="#">Đăng kí</a></li>
-                               <li><a href="#">Đăng nhập</a></li>
-                               <li><a href="#">Đăng tin</a></li>
-                           </ul>
-                       </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="hn-midle-header">
-                <div class="container">
-                <div class="hn-wrap">
-                    <div class="navbar-header">
-                        <a class="navbar-brand ct-brands" href="#">
-                            <img class="img-responsive" src="assets/imgs/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <form action="any" class="navbar-form navbar-left hn-form-group">
-                        <div class="form-group ">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <button class="btn" type="submit">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </form>
-                    <div class="hnn-card">
-                        <button class="btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                        <span>5</span>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="hnn-bot-header">
-                <div class="container">
-                    <p class=" arc " >Category<span class="caret"></span></p>
-                    <ul class="hnn-bhmenu">
-                        <li class="active"><a href="#">Vật liệu xây dựng</a></li>
-                        <li><a href="#">Vật liệu xây dựng</a></li>
-                        <li><a href="#">Vật liệu xây dựng</a></li>
-                        <li><a href="#">Vật liệu xây dựng</a></li>
-                        <li><a href="#">Vật liệu xây dựng</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+	</nav>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" id="main-nav">
+		<div class="wrap wrap-top hidden-xs" id="wrap-top">
+			<div class="container" id="top-header">
+				<div class="navbar-header text-right">
+					<a class="navbar-link" href="#">Tải app</a>
+					<a class="navbar-link" href="#">Chăm sóc khách hàng</a>
+					<a class="navbar-link" href="#">Kiểm tra đơn hàng</a>
+		      <a class="navbar-link" href="#">Đăng nhập</a>
+					<a class="navbar-link" href="#">Đăng ký</a>
+		    </div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="row">
+				<div class="navbar-header col-xs-12 col-sm-4 col-md-3">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#" id="logo">
+						<img src="img/header-logo.png">
+						<div class="detail">
+							<span class="company-name">Maindoors.com.vn</span><br>
+							<span class="slogan">Tất cả cho tổ ấm</span>
+						</div>
+					</a>
+					<!-- ************** BottomHeader Transition Toggle Button -->
+					<button type="button" class="no-border navbar-toggle" id="toggle-bottom-btn" data-toggle="collapse" data-target=".wrap-bottom">
+							<i class="fa fa-list"></i> Tất cả danh mục
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="col-xs-12 col-sm-8 col-md-9">
+					<div class="row collapse navbar-collapse navbar-ex1-collapse">
+						<div class="col-xs-12 col-sm-6 col-md-8 navbar-center">
+							<form class="row" role="search">
+								<!-- <div class="form-group"> -->
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input type="text" name="ten_sp" class="form-control" placeholder="Tìm sản phẩm có giá tốt nhất...">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<select name="danh_muc" id="input" class="form-control">
+										<option value="0">--Tất cả danh mục--</option>
+										<option value="1">Vật liệu xây dựng</option>
+										<option value="2"> |- Gạch, đá, cát</option>
+										<option value="3"> |- Sắt, thép</option>
+										<option value="4"> |- Thiết bị vệ sinh</option>
+										<option value="5">Nội thất thiết kế</option>
+										<option value="6"> |- Phòng khách</option>
+										<option value="7"> |- Phòng bếp</option>
+										<option value="8"> |- Phòng ngủ</option>
+										<option value="0">Nội thất gia dụng</option>
+										<option value="6"> |- Điện lạnh</option>
+										<option value="7"> |- Điện gia dụng</option>
+										<option value="8"> |- Thiết bị khác</option>
+										<option value="0">Bất động sản thuê</option>
+										<option value="6"> |- Nhà phố</option>
+										<option value="7"> |- Văn phòng</option>
+										<option value="8"> |- Chung cư</option>
+										<option value="8"> |- Nhà cho sinh viên</option>
+										<option value="0">Bất động sản bán</option>
+										<option value="6"> |- Nhà phố</option>
+										<option value="7"> |- Văn phòng</option>
+										<option value="8"> |- Chung cư</option>
+										<option value="8"> |- Nhà cho sinh viên</option>
+									</select>
+								</div>
+							</form>
+						</div>
+						<!-- End navbar center -->
+						<div class="navbar-right col-xs-12 col-sm-6 col-md-4">
+							<form class="navbar-form hn-form-ct clear-float no-border" role="search">
+								<div class="form-group">
+									<div class="dropdown">
+										<a href="#" class="dropdown-toggle cart text-center" data-toggle="dropdown" aria-expanded="false">
+											<i class="fa fa-cart-plus" aria-hidden="true"></i><br>
+											<span>Giỏ hàng</span>
+											<span class="count">3</span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Thanh toán</a></li>
+											<li><a href="#">Đăng nhập</a></li>
+											<li><a href="#">Đăng ký</a></li>
+										</ul>
+									</div>
+								</div>
+								<button type="submit" class="btn btn-default">Đăng tin</button>
+						</form>
+						</div>
+					</div><!-- /.navbar-collapse -->
+				</div>
+				<!-- End Col -->
+			</div>
+			<!-- End row -->
+		</div>
+		<!-- End Main Nav bar -->
+		<!-- Start Bottom Header -->
+		<div class="wrap wrap-bottom hidden-xs">
+			<div class="container" id="bottom-header">
+				<div class="navbar-header">
+					<a class="navbar-link" href="#">Điều hòa<span class="border"></span></a>
+					<a class="navbar-link" href="#">Phong cách cổ điển<span class="border"></span></a>
+					<a class="navbar-link" href="#">Vật liệu xây dựng<span class="border"></span></a>
+		      <a class="navbar-link" href="#">Thông tin giao hàng<span class="border"></span></a>
+					<a class="navbar-link" href="#">Đăng kí đại lí<span class="border"></span></a>
+					<a class="navbar-link" href="#">Nội thất cao cấp<span class="border"></span></a>
+		    </div>
+			</div>
+		</div>
+		<!-- End Bottom Header -->
+	</nav>
 	<!-- st -->
-	<div class="container as" style="margin-top: 0;">
-		<div class="as" style="margin-top: 0;">
+	<div class="container as">
+		<div class="as">
 			<p>
 			<span class="home"><a href="#">Home</a></span>
 			<span class="sub-link"><a href="#">Bất động sản</a></span>
@@ -1081,6 +1128,5 @@
 	        }
 	       });
 	</script>
-	<script src="build/scripts.min.js"></script>
 </body>
 </html>
